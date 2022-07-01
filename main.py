@@ -3,7 +3,7 @@ from operator import methodcaller
 import numpy as np
 import requests
 
-bot = telebot.TeleBot('5422152712:AAH1TYNiyhwqTsZcQzndwGgw8RiFVjFDevc')
+bot = telebot.TeleBot('APIключ')
 matrix = 0
 vector = 0
 
