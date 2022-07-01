@@ -13,7 +13,7 @@ def start(message):
     bot.send_message(message.chat.id, 'Введите матрицу в формате\n1 2 3\n4 5 6\n7 8 9\nили вектор свободных '
                                       'членов в формате\n1 2 3\nВводить можно только '
                                       'числа\n/restart - перезагрузка')
-    bot.send_message(message.chat.id, 'Если хотите уточнить, что именно забиваете - пишите:\nmatrix\n1 2\n3 4 - для '
+    bot.send_message(message.chat.id, 'Если хотите уточнить, что именно вводите - пишите:\nmatrix\n1 2\n3 4 - для '
                                       'матрицы\nvector 1 2 - для векторов')
 
 
